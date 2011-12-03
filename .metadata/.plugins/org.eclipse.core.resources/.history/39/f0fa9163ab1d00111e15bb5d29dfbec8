@@ -1,0 +1,12 @@
+<?
+session_start();
+if(empty($_SESSION["F"])==TRUE) {
+	//$_SESSION["F"]=0;
+}
+echo "F(".$_SESSION["F"].")" = ".$_SESSION["F"]+($_SESSION["F2"]);
+
+
+$_SESSION["F2"]+=1;
+$_SESSION["F"]+=1;
+
+

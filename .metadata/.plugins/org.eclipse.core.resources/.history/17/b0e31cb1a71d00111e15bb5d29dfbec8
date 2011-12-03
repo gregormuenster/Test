@@ -1,0 +1,4 @@
+<?
+session_start();
+$_SESSION["COUNT"]+=1;
+echo $_SESSION["COUNT"];

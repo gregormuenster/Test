@@ -1,0 +1,11 @@
+#Sat Dec 03 13:18:06 CET 2011
+useQuickDiffPrefPage=true
+closeBrackets=false
+useAnnotationsPrefPage=true
+closePhpDocsAndComments=false
+autoAddPhpCloseTags=false
+autoAddPhpForPhpStartTags=false
+org.eclipse.php.core.workspaceDefaultLocale=de_DE
+eclipse.preferences.version=1
+closeBraces=false
+closeStrings=false

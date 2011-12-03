@@ -1,0 +1,15 @@
+<?
+session_start();
+
+
+
+$i=$_SESSION['b'];
+$j=$_SESSION['a'];
+
+
+$_SESSION['c']=($i+$j);
+echo $_SESSION['c'];
+
+$_SESSION['a']=$_SESSION['b'];
+$_SESSION['b']=$_SESSION['c'];
+

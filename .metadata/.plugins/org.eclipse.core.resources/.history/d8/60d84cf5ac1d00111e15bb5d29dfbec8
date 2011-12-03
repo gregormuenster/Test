@@ -1,0 +1,14 @@
+<?
+session_start();
+if ($_SESSION['a']<2){
+	$_SESSION['a']=2;
+}
+$i=$_SESSION['a']-2;
+$j=$_SESSION['a']-1;
+
+//echo "F(".$_SESSION['f'].")= ". $i+$j;
+
+$_SESSION['a']=($i+$j);
+echo $_SESSION['a'];
+
+
